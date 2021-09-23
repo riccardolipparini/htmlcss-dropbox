@@ -13,13 +13,7 @@ body{
     content: "";
     clear: both;
 }
-
-header{
-    /* debug */
-    /* height: 100px;
-    width: 100%;
-    background-color: aqua; */
-}
+    
 #sx{
     float: left;
     margin-left: 30px;
@@ -30,11 +24,11 @@ header{
 }
 #sx img{
     vertical-align: middle;
-    margin-top: 30px;
 }
 ul, li{
     display: inline-block;
     vertical-align: middle;
+    margin-bottom: 15px;
 }
 li{
     margin-top: 30px;
@@ -63,17 +57,28 @@ a{
 }
 
 /* Jumbotron */
-
+#jumbotron::after{
+    clear: both;
+    display: table;
+    content: "";
+}
 #jumbotron{
     position: relative;
     height: 700px;
     background-color: rgb(92, 188, 212);
     width: 100%;
-    margin-top: 30px;
+
 }
 #suec{
     padding: 100px 150px 50px 150px;
 }
+#jumbo1{
+    float: left;
+    display: inline-block;
+    width: 30%;
+    margin-left: 8%;
+}
+
 #jumbotitle{
     font-size: 80px;
 }
@@ -83,7 +88,7 @@ a{
 }
 .button{
     height: 40px;
-    width: 15%;
+    width: 45%;
     background-color:rgb(45, 120, 241);
     text-align: center;
     margin-top: 30px;
@@ -93,10 +98,20 @@ a{
     border: solid .5px black;
 }
 
-:nth-child(even){
-    margin-top: 30px;
-}
+
 .fa-arrow-down{
     margin-top: 20px;
     font-size: 30px;
+    display: block;
+}
+
+#jumbo2{
+    float: left;
+    width: 60%;
+    height: 500px;
+}
+#jumboimage{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
 }
