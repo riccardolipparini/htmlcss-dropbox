@@ -5,12 +5,65 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
-.clearfix{
-    content: "";
+/* header */
+.clearfix:after{
     display: table;
+    content: "";
     clear: both;
 }
+
+header{
+    /* debug */
+    /* height: 100px;
+    width: 100%;
+    background-color: aqua; */
+}
+#sx{
+    float: left;
+    margin-left: 30px;
+    /* debug */
+    /* height: 100px;
+    width: 25%;
+    background-color: blueviolet; */
+}
+#sx img{
+    vertical-align: middle;
+    margin-top: 30px;
+}
+ul, li{
+    display: inline-block;
+    vertical-align: middle;
+}
+li{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#dx{
+    float: right;
+    margin-right: 30px;
+    /* debug */
+    /* height: 100px;
+    width: 25%;
+    background-color: blueviolet; */
+}
+#inizia{
+    background-color: rgb(45, 120, 241);
+    color: white;
+    padding: 5px 15px;
+    font-weight: normal;
+}
+
+/* Jumbotron */
+
 #jumbotron{
     position: relative;
     
