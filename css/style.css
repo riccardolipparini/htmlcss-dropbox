@@ -185,10 +185,84 @@ a{
     color: blue;
 }
 
-
-
-  .choose{
+.choose{
       border-bottom: solid 3px rgba(128, 127, 127, 0.507);
       text-align: center;
       padding: 10px;
   }
+
+#enterprisecontainer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#enterprisecontainer{
+    margin-top: 100px;
+    width: 100%;
+    border: grey solid 1px;
+    padding-bottom: 40px;
+    /* debug */
+    
+}
+#team{
+    border-bottom: grey solid 1px;
+    padding: 20px;
+    text-align: center;
+}
+#textteamsx{
+    float: left;
+    width: 60%;
+    /* debug */
+}
+#textteamdx{
+    float: left;
+    width: 40%;
+    /* debug */
+}
+#textteamsx p{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+#textteamdx .button{
+    float: right;
+    margin-right: 30px;
+}
+
+#partnercontainer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#partnercontainer{
+    margin-top: 100px;
+    width: 100%;
+    /* debug */
+}
+#partnersx{
+    float: left;
+    width: 60%;
+    height: 800px;
+    /* debug */
+}
+#partnersx img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+#partnerdx{
+    float: left;
+    width: 40%;
+    height: 500px;
+    /* debug */
+}
+#partnerdx p{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#partnerdx .button{
+    background-color: white;
+    color: black;
+}
