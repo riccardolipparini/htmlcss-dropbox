@@ -530,7 +530,7 @@ a{
     margin-top: 50px;
 }
 .fa-chevron-down{
-    margin-left: 200px;
+    margin-left: 600px;
     display: inline-block;
 }
 .accordion4{
@@ -586,11 +586,11 @@ a{
     border-top: rgb(255, 255, 255) solid 1px;
     width: 100px;
     margin-top: 40px;
-    margin-left: 190px;
+    margin-left: 240px;
 }
 #language{
     color: rgba(255, 255, 255, 0.664);
-    margin-left: 190px;
+    margin-left: 240px;
     margin-top: 100px;
     font-size: 15px;
 }
